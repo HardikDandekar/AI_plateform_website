@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    align-items: center;
+    background-color: #333;
+    background-image: url("https://t4.ftcdn.net/jpg/03/97/02/07/360_F_397020794_LXE0WLqWxcbhIf2UwXfRtLJwjw8aX5Wj.jpg")
+}
+
+nav img {
+    width: 20vh;
+}
+
+nav ul {
+    display: flex;
+    gap: 2vw;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+
+nav .nav-btns button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav .nav-btns button:hover {
+    background-color: #ddd;
+}
+
+/* Home Section */
+.page1 {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.page1 h1 {
+    font-size: 3rem;
+}
+
+.page1 .btn-hov {
+    background-color: chartreuse;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Features Section */
+.page2 {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Services Section */
+.page3 {
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.page3 .card {
+    background-color: #333;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.page3 .card:hover {
+    background-color: chartreuse;
+}
+
+/* Contact Section */
+.page4 {
+    background-color: #333;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+ button{
+   width: 180px;
+   height: 7vh;
+   border-radius: 5px;
+   background-color: greenyellow;
+   border: none;
+}
